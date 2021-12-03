@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="costyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="box_title">
+                <h1>Get in Touch</h1>
+            </div>
+            <form action="#">
+                <div class="name">
+                    <!-- <div class="input_box0"><h2>Get in Touch</h2></div> -->
+                    <div class="row FirstName_div">
+                        <div class="col details">
+                            <h3>First Name</h3>
+                        </div>
+                        <div class="col">
+                            <input type="text"  id="firstName" placeholder="Enter your Name" required>
+                        </div>
+                    </div>
+                    <div class="row Details_div">
+                        <div class="col details">
+                            <h3>E-mail</h3>
+                        </div>
+                        <div class="col">
+                            <input type="text" id="email" placeholder="Enter yourE-mail" required>
+                        </div>
+                    </div>
+                    <div class="row Message_div">
+                        <div class="col details">
+                            <h3>Message</h3>
+                        </div>
+                        <div class="col">
+                            <textarea id="msg" name="messages" placeholder="Type your message...."></textarea>
+
+                        </div>
+                    </div>
+                    <div class="row btn_div">
+                        <button type="button" id="btn">send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
